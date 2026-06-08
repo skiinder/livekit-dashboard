@@ -124,7 +124,7 @@ Docker Hub 已于 2023 年停止支持密码方式的 API 认证。Personal Acce
 
 ### Q: 镜像名称可以自定义吗？
 
-可以。修改 `.github/workflows/workflows/docker-build.yml` 中 `env.IMAGE_NAME` 的值，例如改为 `livekit-manager`。
+可以。修改 `.github/workflows/docker-build.yml` 中 `env.IMAGE_NAME` 的值，例如改为 `livekit-manager`。
 
 ---
 
