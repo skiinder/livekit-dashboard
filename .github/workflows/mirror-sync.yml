@@ -19,6 +19,8 @@ jobs:
             target: livekit-server:latest
           - source: redis:7-alpine
             target: redis:7-alpine
+          - source: coturn/coturn:latest
+            target: coturn:latest
 
     steps:
       - name: Set up Docker Buildx
